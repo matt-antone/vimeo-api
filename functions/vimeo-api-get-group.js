@@ -5,7 +5,7 @@ require('dotenv').config()
 
 const storeData = (rdata, path) => {
     let today = new Date()
-    data = {
+    const data = {
       path: path,
       data: rdata,
       date: today.getTime()
