@@ -1,6 +1,8 @@
 const Vimeo = require('vimeo').Vimeo;
 const fs = require('fs')
 
+require('dotenv').config()
+
 const storeData = (data, path) => {
     let today = new Date()
     data = {
