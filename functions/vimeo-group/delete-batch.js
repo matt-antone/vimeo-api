@@ -11,10 +11,10 @@ exports.handler = async (event, context) => {
   }) 
   const data = JSON.parse(event.body)
   console.log('data', data)
-  console.log(`Function ${FAUNADB_COLLECTION}-delete-batch invoked`, data.ids)
+  console.log(`Function ${'groups'}-delete-batch invoked`, data.ids)
   // construct batch query from IDs
   const deleteAllCompletedQuery = data.ids.map((id) => {
-    return q.Delete(q.Ref(`classes/${FAUNADB_COLLECTION}/${id}`))
+    return q.Delete(q.Ref(`classes/${'groups'}/${id}`))
   })
   // Hit fauna with the query to delete the completed items
   return client.query(deleteAllCompletedQuery)

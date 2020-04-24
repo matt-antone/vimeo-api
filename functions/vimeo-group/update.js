@@ -11,8 +11,8 @@ exports.handler = (event, context) => {
   }) 
   const data = JSON.parse(event.body)
   const id = getId(event.path)
-  console.log(`Function '${FAUNADB_COLLECTION}-update' invoked. update id: ${id}`)
-  return client.query(q.Update(q.Ref(`classes/${FAUNADB_COLLECTION}/${id}`), {data}))
+  console.log(`Function '${'groups'}-update' invoked. update id: ${id}`)
+  return client.query(q.Update(q.Ref(`classes/${'groups'}/${id}`), {data}))
     .then((response) => {
       console.log('success', response)
       return {

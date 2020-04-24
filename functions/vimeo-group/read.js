@@ -11,8 +11,8 @@ exports.handler = (event, context) => {
     secret: process.env.FAUNADB_SERVER_SECRET
   }) 
   const id = getId(event.path)
-  console.log(`Function '${FAUNADB_COLLECTION}-read' invoked. Read id: ${id}`)
-  return client.query(q.Get(q.Ref(`classes/${FAUNADB_COLLECTION}/${id}`)))
+  console.log(`Function '${'groups'}-read' invoked. Read id: ${id}`)
+  return client.query(q.Get(q.Ref(`classes/${'groups'}/${id}`)))
     .then((response) => {
       console.log('success', response)
       return {

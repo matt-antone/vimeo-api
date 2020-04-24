@@ -17,12 +17,12 @@ const storeData = (data, path) => {
     })  
     /* parse the string body into a useable JS object */
     const data = JSON.parse(event.body)
-    console.log(`Function ${FAUNADB_COLLECTION}-create invoked`, data)
+    console.log(`Function ${'groups'}-create invoked`, data)
     const Item = {
       data: data
     }
     /* construct the fauna query */
-    return client.query(q.Create(q.Ref(`classes/${FAUNADB_COLLECTION}`), Item))
+    return client.query(q.Create(q.Ref(`classes/${'groups'}`), Item))
       .then((response) => {
         console.log('success', response)
         /* Success! return the response with statusCode 200 */
