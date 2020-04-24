@@ -3,11 +3,11 @@ const fs = require('fs')
 
 require('dotenv').config()
 
-const storeData = (data, path) => {
+const storeData = (rdata, path) => {
     let today = new Date()
     data = {
       path: path,
-      data: data,
+      data: rdata,
       date: today.getTime()
     }
 
