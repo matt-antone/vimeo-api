@@ -2,9 +2,10 @@
 const faunadb = require('faunadb')
 const q = faunadb.query
 
+require('dotenv').config()
 
 exports.handler = (event, context) => {
-  console.log('Function `todo-read-all` invoked')
+  console.log(`Function ${FAUNADB_}-read-all invoked`)
   /* configure faunaDB Client with our secret */
   const client = new faunadb.Client({
     secret: process.env.FAUNADB_SERVER_SECRET

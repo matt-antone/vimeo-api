@@ -4,6 +4,8 @@ const chalk = require('chalk')
 const insideNetlify = insideNetlifyBuildContext()
 const q = faunadb.query
 
+require('dotenv').config()
+
 console.log(chalk.cyan('Creating your FaunaDB Database...\n'))
 
 // 1. Check for required enviroment variables
@@ -32,12 +34,12 @@ function createFaunaDB(key) {
   })
 
   /* Based on your requirements, change the schema here */
-  return client.query(q.Create(q.Ref('classes'), { name: 'todos' }))
+  return client.query(q.Create(q.Ref('classes'), { name: FAUNADB_COLLECTION }))
     .then(() => {
       return client.query(
         q.Create(q.Ref('indexes'), {
-          name: 'all_todos',
-          source: q.Ref('classes/todos')
+          name: `all_${FAUNADB_COLLECTION}`,
+          source: q.Ref(`classes/${FAUNADB_COLLECTION}`)
         }))
     }).catch((e) => {
       // Database already exists

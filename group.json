@@ -1,0 +1,443 @@
+{
+  total: 14280,
+  page: 1,
+  per_page: 10,
+  paging: {
+    next: '/channels/staffpicks/videos?page=2&per_page=10&fields=uri%2Cname%2Cdescription%2Cduration%2Ccreated_time%2Cmodified_time%2Cpictures',
+    previous: null,
+    first: '/channels/staffpicks/videos?page=1&per_page=10&fields=uri%2Cname%2Cdescription%2Cduration%2Ccreated_time%2Cmodified_time%2Cpictures',
+    last: '/channels/staffpicks/videos?page=1428&per_page=10&fields=uri%2Cname%2Cdescription%2Cduration%2Ccreated_time%2Cmodified_time%2Cpictures'
+  },
+  data: [
+    {
+      uri: '/videos/410720817',
+      name: 'DELIVERED',
+      description: "A slice of life in the time of corona. Thousands of invisible front line workers risk their health every day to bring food to your couch. They aren't just immigrants struggling to survive in New York City. They aren't just the delivery men and women you don't look at when you open your door. They are the backbone of this city, they are the essential. Most importantly, they are people too and they deserve our respect and recognition now more than ever. Tip generously if you'd like and give them PPE if you can. \n" +
+        '\n' +
+        "I've been riding alongside couriers and messengers in the city for a decade. In the past, I've been mistaken as a delivery biker whenever I carry any sort of bag even in my own building, probably because I'm asian. That used to annoy me, but now I realize they're more needed than most of us.\n" +
+        '\n' +
+        'Directed by Law\n' +
+        'Featuring the Couriers and Messengers of NYC\n' +
+        '\n' +
+        'This was made safely and at a distance.\n' +
+        '\n' +
+        'Producers: Jon Hsu and Law Chen\n' +
+        'DoP/Editor: Law Chen\n' +
+        "Music: 'Opus' by Ryuichi Sakamoto\n" +
+        'Special Thanks to:\n' +
+        'Lah Houss\n' +
+        'Allen Ying\n' +
+        'Wilfred Chan\n' +
+        'Alex Blum\n' +
+        'Nayeema Raza\n' +
+        'Shannon Tierney\n' +
+        'Michelle FlorCruz',
+      duration: 258,
+      created_time: '2020-04-22T18:16:26+00:00',
+      modified_time: '2020-04-24T19:33:33+00:00',
+      pictures: [Object]
+    },
+    {
+      uri: '/videos/410459328',
+      name: 'FRAMED',
+      description: 'A noir tale in stop-motion.\n' +
+        '\n' +
+        `"FRAMED" is this week's Staff Pick Premiere. Read more about it here: https://vimeo.com/blog/post/staff-pick-premiere-framed-by-marco-jemolo`,
+      duration: 411,
+      created_time: '2020-04-22T03:18:19+00:00',
+      modified_time: '2020-04-24T19:33:35+00:00',
+      pictures: [Object]
+    },
+    {
+      uri: '/videos/410448352',
+      name: "IF YOU'RE READY",
+      description: 'Coincidences! Love! An anonymous package! A dreamy journey through Los Angeles!\n' +
+        '\n' +
+        'written and directed by Jimmy Marble \n' +
+        'director of photography: Julian Kapadia\n' +
+        'edited by Casey Swoyer\n' +
+        'Production Design by Brandon Clark and Honor Hamilton \n' +
+        'Wardrobe by Jordy Sheinberg\n' +
+        'Hair/Makeup by Stephanie Nicole Smith with Alix Isom\n' +
+        '\n' +
+        'Produced by Taylor Vandegrift & Harry Calbom \n' +
+        'with Kenneth Casey Swoyer & Jesse Chamberlin Marble\n' +
+        'Associate Producers: Matt Sanders and Larisa Peters\n' +
+        'Production Company: Society \n' +
+        'UPM: Justin Kappenstein\n' +
+        'AD: Sam Shapson\n' +
+        '\n' +
+        'Titles by Aron Filkey\n' +
+        'Music by Mark Yaeger\n' +
+        'Colorist: Kaitlyn Battistelli\n' +
+        'VFX: Ethos Studio\n' +
+        'Sound Design by Josh Falcon\n' +
+        'Casting by Michael Beaudry @ BlockM Casting \n' +
+        'Choreography by Nicola Collie\n' +
+        '\n' +
+        'Starring: Theo Martins as Drew \n' +
+        'Nika de Carlo (voice) as Annie\n' +
+        'Free Oribhabor as Danny \n' +
+        'Alina Cutrona as Angela\n' +
+        'Martha Marble as Cute Butt Baby\n' +
+        'Jesse Marble as Cute Mom\n' +
+        'Alix Isom as Cute Butt 2\n' +
+        'Cole Carter as Cute Butt 3\n' +
+        'Cindy Plotkin as Neighbor Butt 1\n' +
+        'Justin Kappenstein as Neighborbutt 2\n' +
+        'Michael Beaudry as Neighborbutt 3\n' +
+        'Stephen McNeely as Tai Chi 1\n' +
+        'Jeremiah Benjamin as Tai Chi 2\n' +
+        'Jess Weaver as Tai Chi 3\n' +
+        'Tyson Carter as Tai Chi 4\n' +
+        'Danny Lineaar as Tai Chi 5\n' +
+        'Dexter McDaniel as Tai Chi Leader\n' +
+        'August Chamberlin as Metal Dectorist\n' +
+        'Kayslee Collins as Woman in Car\n' +
+        'Waymond Lee as Other Drew\n' +
+        'Gracyn Chamberlin as TP Kid 1\n' +
+        'Rain Isacson as TP Kid 2\n' +
+        'Elena Cambell-Martinez as Grandma\n' +
+        'Shawheen Keyani as Mean Teen 1\n' +
+        'Alix Isom as Mean Teen 2\n' +
+        'Kevin Hall as Handsome Dog Boy\n' +
+        'Circus Szalewksi as Dog Owner\n' +
+        'Bryna Weiss as Bird Eater\n' +
+        'Nicola Collie as Yellow Dress 1\n' +
+        'Madaline Riley as Yellow Dress 2\n' +
+        'Gina Gonzales as Yellow Dress 3\n' +
+        'Lexi Clavell as Yellow Dress 4\n' +
+        'Ashley Robicheaux as Yellow Dress 5\n' +
+        'Erika Paget as Yellow Dress 6\n' +
+        'Murphy Martin as Barista\n' +
+        '\n' +
+        'Assistant Costumer John Thompson\n' +
+        '2nd Assist Makeup Carly Beck\n' +
+        'SFX Makeup Haelee Guajardo\n' +
+        'Locations Taylor Vandegrift\n' +
+        'Motorhome Driver Alexander Bulinski\n' +
+        'Camera: Eastside Rentals\n' +
+        'Grip and Lighting: Hot Points Lighting\n' +
+        'Production Supplies: First Run\n' +
+        'Trucking: Quixote\n' +
+        'Motorhome: Sully Supply\n' +
+        'Business Affairs: Drew Becker\n' +
+        'Production Assistant: Holiday Coles',
+      duration: 620,
+      created_time: '2020-04-22T02:27:26+00:00',
+      modified_time: '2020-04-24T19:18:42+00:00',
+      pictures: [Object]
+    },
+    {
+      uri: '/videos/410023583',
+      name: 'Crude Oil',
+      description: 'Jenny breaks free from a toxic friendship and learns to harness her magical, useless superpower. \n' +
+        '\n' +
+        'christopher.n.good@gmail.com    https://www.christophergood.net\n' +
+        '\n' +
+        '2019 Sundance Film Festival\n' +
+        'Grand Jury Prize Experimental Short 2019 Nashville Film Festival\n' +
+        '2019 Palm Springs International ShortFest \n' +
+        '2019 Sundance Film Festival Shorts Tour\n' +
+        '2019 Calgary International Film Festival\n' +
+        '2019 Denver Film Festival\n' +
+        '2019 Indie Memphis Film Festival\n' +
+        '2019 New Hampshire Film Festival\n' +
+        '2019 Cucalorus Film Festival \n' +
+        '2019 Sarasota Film Festival\n' +
+        '2020 Mecal International Short Film Festival of Barcelona\n' +
+        '2019 Tallgrass Film Festival\n' +
+        '2019 Internationale Kurzfilmtage Winterthur\n' +
+        '2020 Istanbul International Short Film Festival\n' +
+        '2019 Leiden International Film Festival\n' +
+        '2019 Milano Film Festival\n' +
+        '2019 Lago Film Fest\n' +
+        '2019 Chicago Critics Film Festival\n' +
+        '2019 Mammoth Lakes Film Festival\n' +
+        '2019 Omaha Film Festival\n' +
+        '2019 24fps International Film Festival\n' +
+        '2019 Filmfort\n' +
+        '2019 Kansas International Film Festival\n' +
+        '2019 St. Cloud Film Fest\n' +
+        '2019 Rated SGF Film Festival\n' +
+        '2019 Victory International Film Festival\n' +
+        '2019 Kansas City FilmFest International \n' +
+        '\n' +
+        'Written & Directed by Christopher Good http://www.christophergood.net\n' +
+        'Produced by Andreina Byrne https://www.andreinabyrne.com\n' +
+        'Director of Photography: Jeremy Osbern http://www.jeremyosbern.com\n' +
+        'Executive Producer: Jeremy Osbern\n' +
+        'Associate Producer: Bear Damen https://www.czar.nl/director/bear-damen/\n' +
+        'Production Designer: Sinjun Strom https://www.sinjunstrom.com\n' +
+        'Production/ Post-Production Sound: Danny Bowersox https://www.plusminusaudiopost.com\n' +
+        'Music by Matt Hill https://www.matthewhillmusic.com/umberto\n' +
+        'Styled by Sarica Douglas \n' +
+        'Visual Effects: Eric Bacus \n' +
+        'Compositing: Cooper Vacheron http://coopervacheron.com\n' +
+        'Fabrication: Anthony Putzier https://www.anthonyputzier.com\n' +
+        'Color/ Titles: Stephen Deaver http://www.stephendeaver.com\n' +
+        'Choreography by Kristopher Estes-Brown https://www.kristopherestesbrown.com\n' +
+        'Production Assistant: Ryan Bowersox\n' +
+        'Steadicam Operator: Jordan Marable \n' +
+        'Key Grip: Kyle Wilson\n' +
+        'Assistant Camera: Jeffrey Mundinger https://www.jeffreymundinger.com\n' +
+        'Additional Camera Operator: Collin Martin\n' +
+        '\n' +
+        'Andreina Byrne as Jenny\n' +
+        'Tipper Newton as Lynn\n' +
+        'Josh Fadem as Ken',
+      duration: 920,
+      created_time: '2020-04-21T01:34:40+00:00',
+      modified_time: '2020-04-24T19:21:07+00:00',
+      pictures: [Object]
+    },
+    {
+      uri: '/videos/409999884',
+      name: 'I’ve been hearing strange noises from my attic...',
+      description: 'So I called a few friends and went to investigate…\n' +
+        '\n' +
+        '\n' +
+        'This film was has been featured by the #sheltershorts initiative. Make your own and submit it to sheltershorts.com/\n' +
+        '\n' +
+        "Please DONATE to World Central Kitchen's COVID-19 Response at donate.wck.org/sheltershorts",
+      duration: 120,
+      created_time: '2020-04-20T23:50:43+00:00',
+      modified_time: '2020-04-24T19:32:46+00:00',
+      pictures: [Object]
+    },
+    {
+      uri: '/videos/409685781',
+      name: 'Iron Hands (铁手)',
+      description: "As a 12-year-old girl prepares for her final test trying out for the traditionally all-boys Chinese youth Olympic weightlifting team, she makes an unlikely connection with the gym's reclusive groundskeeper.\n" +
+        '\n' +
+        'Directors Notes: directorsnotes.com/2020/04/20/johnson-cheng-iron-hands/\n' +
+        '\n' +
+        '*100+ Film Festival Official Selections*\n' +
+        '16th Tribeca Film Festival *World Premiere*\n' +
+        '21st TIFF Kids International Film Festival *Canadian Premiere*\n' +
+        '23rd Palm Springs International Short Film Festival *Best Student Live Action Short Film Award*\n' +
+        '14th Reykjavík International Film Festival *Golden Egg Selection*\n' +
+        '49th Nashville Film Festival\n' +
+        '28th Cinequest Film & VR Festival\n' +
+        '20th Short Shorts Film Festival & Asia\n' +
+        '13th Traverse City Film Festival\n' +
+        '27th Florida Film Festival\n' +
+        '26th Heartland Film Festival\n' +
+        '48th Giffoni Film Festival\n' +
+        '15th Bogota Short Film Festival\n' +
+        '34th Los Angeles Asian Pacific Film Festival\n' +
+        '36th CAAMFest *InspirASIAN Student Film Award*\n' +
+        '35th Chicago International Children’s Film Festival\n' +
+        '21st New York International Children’s Film Festival\n' +
+        '36th Uppsala International Short Film Festival\n' +
+        '21st Los Angeles International Short Film Festival\n' +
+        '12th Show Me Shorts Film Festival\n' +
+        '15th In The Palace International Short Film Festival\n' +
+        '\n' +
+        'Written & Directed by\n' +
+        'Johnson Cheng\n' +
+        '\n' +
+        'Produced by\n' +
+        'Tianqi Zhuo\n' +
+        '\n' +
+        'Executive Producer\n' +
+        'Felicity Wang\n' +
+        '\n' +
+        'Co-Producer\n' +
+        'Xixi Wang\n' +
+        '\n' +
+        'Director of Photography\n' +
+        'Shipei Wen\n' +
+        '\n' +
+        'Film Editor\n' +
+        'Johnson Cheng\n' +
+        '\n' +
+        'Production Designer\n' +
+        'Mengna Jiang\n' +
+        '\n' +
+        'Original Score by\n' +
+        'Zeke Khaseli\n' +
+        'Yudhi Arfani\n' +
+        '\n' +
+        'Starring\n' +
+        '\n' +
+        'Weightlifter Girl\n' +
+        'Zixuan Liu\n' +
+        '\n' +
+        'Groundskeeper\n' +
+        'Xing Lian\n' +
+        '\n' +
+        'Coach\n' +
+        'Tao Wei\n' +
+        '\n' +
+        'Weightlifter Boys\n' +
+        'Jianbin Huang\n' +
+        'Dunhua Kang\n' +
+        'Jiaming Wang\n' +
+        'Aonan Wu\n' +
+        'Zhaoshun Xie\n' +
+        '\n' +
+        'Crew\n' +
+        '\n' +
+        'First Assistant Director\n' +
+        'Tianqi Zhuo\n' +
+        '\n' +
+        'Casting Director\n' +
+        'Ming Yi\n' +
+        '\n' +
+        'Associate Producer\n' +
+        'Yachi Yang\n' +
+        '\n' +
+        'Sound Recordists\n' +
+        'Jingxi Guo\n' +
+        'Shanying Wang\n' +
+        '\n' +
+        'Gaffers\n' +
+        'Tiange Bei\n' +
+        'Hao Wei\n' +
+        '\n' +
+        '1st Assistant Camera\n' +
+        'Dongsheng Zhang\n' +
+        '\n' +
+        '2nd Assistant Camera\n' +
+        'Zhenjie Yan\n' +
+        '\n' +
+        'Colorists\n' +
+        'Markus Englmair\n' +
+        'Mikki Crisostomo\n' +
+        '\n' +
+        'Sound Editor | Re-recording Mixer\n' +
+        'William Hsieh\n' +
+        '\n' +
+        'Graphic Designers\n' +
+        'Maggie Briggs\n' +
+        'James Lien\n' +
+        '\n' +
+        'Title Design by\n' +
+        'Yudho Aditya\n' +
+        '\n' +
+        'Production Assistant\n' +
+        'Chenxi Li\n' +
+        '\n' +
+        'Driver\n' +
+        'Zhujun Sun\n' +
+        '\n' +
+        'Filmed on location in Beijing, China\n' +
+        '\n' +
+        'Produced in partial fulfillment of the MFA degree in Film at Columbia University School of the Arts.\n' +
+        '\n' +
+        'Johnson Cheng | johnsoncheng.com',
+      duration: 668,
+      created_time: '2020-04-20T07:17:31+00:00',
+      modified_time: '2020-04-24T19:10:41+00:00',
+      pictures: [Object]
+    },
+    {
+      uri: '/videos/409634075',
+      name: 'BAD WILL HUNTING / a Shelter Short',
+      description: "Please DONATE to World Central Kitchen's COVID-19 Response\n" +
+        'https://donate.wck.org/sheltershorts\n' +
+        '\n' +
+        'This film was made in 8 days as part of the Shelter Shorts initiative.\n' +
+        'https://www.sheltershorts.com/\n' +
+        'Go make one!',
+      duration: 319,
+      created_time: '2020-04-20T02:43:39+00:00',
+      modified_time: '2020-04-24T19:32:46+00:00',
+      pictures: [Object]
+    },
+    {
+      uri: '/videos/408812020',
+      name: 'Marcy Learns Something New',
+      description: 'A widow (Rachel Dratch) goes to a dominatrix class.\n' +
+        '\n' +
+        'Winner: Special Jury Mention for Comedy - Aspen Shortsfest 2020\n' +
+        '\n' +
+        'Starring Rachel Dratch & Henry Ayres-Brown\n' +
+        'Written and Directed by Julia Kennelly\n' +
+        '\n' +
+        'Produced by Julia Kennelly, Karine Benzaria, Will Mayo, Chandler Raub, Erica Rose, Bits Sola, and Tyler Ben-Amotz\n' +
+        'Executive Producer: Christina D. King\n' +
+        'Casting by Andrew Femenella\n' +
+        '\n' +
+        'Director of Photography: Daisy Zhou\n' +
+        'Edited by Will Mayo\n' +
+        "Production Design by Christina O'Neil\n" +
+        'Composer Zach Rosenberg',
+      duration: 947,
+      created_time: '2020-04-17T11:16:39+00:00',
+      modified_time: '2020-04-24T19:33:23+00:00',
+      pictures: [Object]
+    },
+    {
+      uri: '/videos/407847886',
+      name: 'EXCELSIOR  #EverUpward',
+      description: 'What will you do #WhenThisIsOver ?\n' +
+        '\n' +
+        'Please call that friend, family member; that person who sat next to you at work. Call, and tell them they have a person who cares for them. Stay safe. Call them and tell them…\n' +
+        '\n' +
+        'We miss you. We love you. We’re with you. \n' +
+        '\n' +
+        '#Excelsior #EverUpward #WhenThisIsOver \n' +
+        '\n' +
+        'Made with love from NYC.\n' +
+        '\n' +
+        'Production Company: Sanctuary\n' +
+        'Directed by Elle Ginter + Stephania Dulowski\n' +
+        'Shot by: Stephania Dulowski + Elle Ginter\n' +
+        'Edited by: Stephania Dulowski\n' +
+        'Grade by: Elle Ginter\n' +
+        'Sound Mix by: Only Audio / Daniel Lidchi\n' +
+        'Open VO: Gov. Cuomo\n' +
+        '\n' +
+        '@stephaniadulowski\n' +
+        'StephaniaDulowski.com\n' +
+        '@elleginter\n' +
+        'ElleGinter.com\n' +
+        '\n' +
+        'Excelsior #EverUpward is the culmination of numerous sleepless nights driving through NYC at the height of the Covid19 quarantine.  The film was created in effort to positively reflect forwards and highlight what New Yorkers miss most in the center of self-isolation. \n' +
+        '\n' +
+        'All footage shot on our iPhones. Voices and videos are family, friends and acquaintances used with permission and sent in specifically for this project alone. All sounds are our own. \n' +
+        '\n' +
+        'Special thanks to the friends and acquaintances who left voicemails, recorded calls, donated their sounds, thoughts and voices to our love letter of encouragement and thanks to NYC.\n' +
+        '\n' +
+        'Featured in: \n' +
+        'LBB Online\n' +
+        'Shoot Magazine\n' +
+        'Ad of the Day , Campaign Brief\n' +
+        'Newsbreak\n' +
+        'Best Ads on TV',
+      duration: 176,
+      created_time: '2020-04-15T04:09:35+00:00',
+      modified_time: '2020-04-24T19:33:12+00:00',
+      pictures: [Object]
+    },
+    {
+      uri: '/videos/407694202',
+      name: 'Second To None by Vincent Gallagher',
+      description: "When Fredericks twin brother becomes the world's oldest man by a mere minute, Frederick\n" +
+        'finally sees his chance to take first place, by whatever means necessary.\n' +
+        '\n' +
+        '‘Second to None’ is a stop motion comedy about ambition, where second best is never enough.\n' +
+        '\n' +
+        `"Second to None" is this week's Staff Pick Premiere. Read more about it here: https://vimeo.com/blog/post/staff-pick-premiere-second-to-none-by-vincent-gallagher/\n` +
+        '\n' +
+        '----------------------------------------------------\n' +
+        'Writer / Director: Vincent Gallagher\n' +
+        'Producer: Damian Farrell\n' +
+        'Animator: Jason Watts\n' +
+        'Character Design: Pierre Butler\n' +
+        'Production Design: Aoife Noonan\n' +
+        'Costume: Miriam Donohue & Laura Ann Moone\n' +
+        'Music: St Francis Hotel\n' +
+        '\n' +
+        'Website: \n' +
+        'www.secondtononemovie.com\n' +
+        'www.caboom.ie',
+      duration: 437,
+      created_time: '2020-04-14T18:59:56+00:00',
+      modified_time: '2020-04-24T19:33:17+00:00',
+      pictures: [Object]
+    }
+  ]
+}
