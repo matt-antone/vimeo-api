@@ -9,6 +9,7 @@ exports.handler = async function(event, context, callback) {
   const x = process.env.VIMEO_CLIENT_ID
   const y = process.env.VIMEO_CLIENT_SECRET
   const API_ENDPOINT = 'https://api.vimeo.com/channels/staffpicks/videos'
+  // const API_ENDPOINT = 'https://api.vimeo.com/oauth/authorize/client'
   const options = {
       // These properties are part of the Fetch Standard
       method: 'POST',
