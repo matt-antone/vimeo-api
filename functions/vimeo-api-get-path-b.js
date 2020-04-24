@@ -6,16 +6,17 @@ require('dotenv').config()
 
 exports.handler = async function(event, context, callback) {
   console.log(event,context)
-  const x = VIMEO_CLIENT_ID
-  const y = VIMEO_CLIENT_SECRET
+  const x = process.env.VIMEO_CLIENT_ID
+  const y = process.env.VIMEO_CLIENT_SECRET
   const API_ENDPOINT = 'https://api.vimeo.com/channels/staffpicks/videos'
   const options = {
       // These properties are part of the Fetch Standard
-      method: 'GET',
+      method: 'POST',
       headers: {          // request headers
         'Authorization':	`basic base64_encode(${x}:${y})`,
         'Content-Type':	'application/json',
-        'Accept':	'application/vnd.vimeo.*+json;version=3.4'
+        'Accept':	'application/vnd.vimeo.*+json;version=3.4',
+        'Transfer-Encoding': 'identity',
       },                  
       body: {             // request body
         "grant_type": "client_credentials",
@@ -27,14 +28,15 @@ exports.handler = async function(event, context, callback) {
       // The following properties are node-fetch extensions
       follow: 20,         // maximum redirect count. 0 to not follow redirect
       timeout: 0,         // req/res timeout in ms, it resets on redirect. 0 to disable (OS limit applies). Signal is recommended instead.
-      compress: true,     // support gzip/deflate content encoding. false to disable
+      compress: false,     // support gzip/deflate content encoding. false to disable
       size: 0,            // maximum response body size in bytes. 0 to disable
       agent: null         // http(s).Agent instance or function that returns an instance (see below)
   }
 
-  let login
+  let response
   try {
-    login = await fetch(API_ENDPOINT,options)
+    response = await fetch(API_ENDPOINT,options)
+    console.log('MATT: ',response)
     // handle response
   } catch (err) {
     return {

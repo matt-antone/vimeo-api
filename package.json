@@ -8,6 +8,7 @@
     "dotenv": "^8.2.0",
     "faunadb": "^2.13.1",
     "markdown-magic": "^1.0.0",
+    "node-fetch": "^2.6.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
