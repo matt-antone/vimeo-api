@@ -15,18 +15,19 @@ const getGroup = async function () {
 
   const x = process.env.VIMEO_CLIENT_ID
   const y = process.env.VIMEO_CLIENT_SECRET
+  // const API_ENDPOINT = 'https://api.vimeo.com/channels/staffpicks/videos'
   const API_ENDPOINT = 'https://api.vimeo.com/oauth/authorize/client'
 
   let response
 
   const request = {
-    url: 'https://api.vimeo.com/oauth/authorize/client',
+    url: API_ENDPOINT,
     method: 'post',   
     headers: {          // request headers
       'Authorization':	`basic base64_encode(${x}:${y})`,
       'Content-Type':	'application/json',
       'Accept':	'application/vnd.vimeo.*+json;version=3.4',
-      'Transfer-Encoding': 'gzip',
+      'Transfer-Encoding': 'identity',
     },                  
     data: {
       "grant_type": "client_credentials",
@@ -37,7 +38,7 @@ const getGroup = async function () {
   console.log(request);
 
   try {
-    response = await axios.get(request);
+    response = await axios(request);
     console.log(response);
   } catch (error) {
     console.error(error);

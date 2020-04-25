@@ -17,7 +17,7 @@ exports.handler = async function(event, context, callback) {
         'Authorization':	`basic base64_encode(${x}:${y})`,
         'Content-Type':	'application/json',
         'Accept':	'application/vnd.vimeo.*+json;version=3.4',
-        'Transfer-Encoding': 'identity',
+        'Transfer-Encoding': 'compress',
       },                  
       body: {             // request body
         "grant_type": "client_credentials",
